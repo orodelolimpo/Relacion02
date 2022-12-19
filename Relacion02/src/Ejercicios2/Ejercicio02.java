@@ -9,7 +9,16 @@ public class Ejercicio02 {
 		
 		System.out.println( "Introduce el primer número ");
 		Scanner teclado = new Scanner (System.in);
-		int numero1
+		double numero1= teclado.nextInt();
+		System.out.println("Introduce el segundo número");
+		double numero2= teclado.nextInt();
+		System.out.println("Introduce el tercer número");
+		double numero3= teclado.nextInt();
+		if (numero1< numero2 && numero1<numero3) {
+			System.out.printf("El menor es el %.2f \n", numero1);
+		}else if ()
+		}
+		
 
 	}
 
